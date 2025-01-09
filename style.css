@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_wrap{
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+    background-image: linear-gradient(to right, rgb(17, 111, 200), rgb(57, 10, 143));
+    
+}
+.card1{
+    width: 320px;
+    background-color: #fff;
+    border-radius: 22px;
+}
+.card1>img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contant_section{
+   width: 100%;
+   border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;
+   padding: 22px 20px;
+
+}
+.button{
+    background-color: rgb(8, 144, 212);
+    background-image: linear-gradient(rgb(17, 111, 200), rgb(62, 209, 246));
+    color: #eae5e5;
+    padding: 3px 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.heading{
+    margin-block: 12px;
+    text-transform: capitalize;
+}
+.last_contant{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.girl1{
+    object-fit: cover ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;   
+}
+.name{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.age{
+    color: #807b7b;
+    font-size: 12px;
+}
+.card2{
+    width: 320px;
+    background-color: #fff;
+    border-radius: 22px;
+}
+.card2>img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0;
+}
+.contant_section2{
+    width: 100%;
+    border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;
+    padding: 22px 20px;
+}
+.last_contant2{
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.age2{
+    color: #807b7b;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.button2{
+    background-color: rgb(8, 144, 212);
+    background-image: linear-gradient(rgb(244, 226, 28), rgb(185, 110, 5));
+    color: #eae5e5;
+    padding: 3px 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+.card3{
+    width: 320px;
+    background-color: #fff;
+    border-radius: 22px;
+}
+.card3>img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.button3{
+    background-color: rgb(8, 144, 212);
+    background-image: linear-gradient(rgb(249, 24, 24), rgb(80, 21, 5));
+    color: #eae5e5;
+    padding: 3px 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.last_contant3{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
